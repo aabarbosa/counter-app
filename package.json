@@ -1,8 +1,8 @@
 {
-  "homepage": "https://aabarbosa.github.io/counter-app",
   "name": "counter-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aabarbosa.github.io/counter-app",
   "dependencies": {
     "ajv": "^6.5.2",
     "bootstrap": "^4.1.1",
@@ -16,7 +16,6 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
